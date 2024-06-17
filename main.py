@@ -6,6 +6,7 @@ pygame.init()
 altura = 563
 largura = 1000
 icone  = pygame.image.load("assets/nave.jpg")
+estrelinha  = pygame.image.load("assets/estrela.png")
 pygame.display.set_icon(icone)
 fundo = pygame.image.load('assets/bg.jpg')
 pygame.display.set_caption("Estrelas")
@@ -26,7 +27,8 @@ while True:
     for estrela in estrelas:
         nome, pos = estrela
         pygame.draw.circle(tela, (255, 255, 255), pos, 5)
-        fonte = pygame.font.Font(None, 36)
+        tela.blit(estrelinha, (pos))
+        fonte = pygame.font.Font(None, 26)
         texto = fonte.render(nome, True, (255, 255, 255))
         tela.blit(texto, (pos[0] + 10, pos[1] - 10))
     pygame.display.update()
