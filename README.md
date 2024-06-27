@@ -30,11 +30,11 @@ evitar que algum erro aconteça.
 ser salvo os pontos marcados.
 11) [V] Deve ser utilizado Dicionários na Aplicação. Abaixo um exemplo para percorrer um 
 dicionário:
-12) [ ] Deve ser utilizado tuplas no projeto.
-13) [ ] No Github, será avaliado além do código final, o total de commits enviados, sendo necessário 
+12) [V] Deve ser utilizado tuplas no projeto.
+13) [V] No Github, será avaliado além do código final, o total de commits enviados, sendo necessário 
 ao menos 5 commits, sendo que em trabalhos em dupla, ao menos um deles deve ser de um 
 integrante da dupla e os demais do outro integrante.
-14) [ ] É necessário criar um executável da aplicação e subir o mesmo para uma pasta no drive na 
+14) [V] É necessário criar um executável da aplicação e subir o mesmo para uma pasta no drive na 
 conta do aluno (obs.: deixar essa pasta pública). No readme do projeto no Git, deve ser colocado 
 além do nome e ra, o link para download do executável. Pode ser um build ou msi. Não devemos 
 subir para o GIT esse build, somente os arquivos do projeto
